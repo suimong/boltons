@@ -10,6 +10,8 @@ on:
       - 'docs/**'
       - '*.md'
       - '*.rst'
+  workflow_dispatch:
+  
 jobs:
   tests:
     name: ${{ matrix.name }}
