@@ -1,15 +1,15 @@
-name: Tests
+name: "Tests: Python 3.10"
 on:
-  push:
-    paths-ignore:
-      - 'docs/**'
-      - '*.md'
-      - '*.rst'
-  pull_request:
-    paths-ignore:
-      - 'docs/**'
-      - '*.md'
-      - '*.rst'
+  # push:
+  #   paths-ignore:
+  #     - 'docs/**'
+  #     - '*.md'
+  #     - '*.rst'
+  # pull_request:
+  #   paths-ignore:
+  #     - 'docs/**'
+  #     - '*.md'
+  #     - '*.rst'
   workflow_dispatch:
   
 jobs:
